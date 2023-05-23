@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .news {
+    padding: 50px 0;
+    background: #333;
+  }
+  
+  .inner {
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 65px 0 100px;
+  }
+  
+  .sub_ttl {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .news_list {
+    margin: 0 5%;
+  }
+  
+  .news_list_item {
+    padding: 25px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .news_list_item:first-child {
+    border-top: 1px solid #333;
+  }
+  
+  .news_list_item a {
+    position: relative;
+    display: flex;
+    padding-right: 30px;
+  }
+  
+  .news_list_date {
+    font-size: 15px;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+  }
+  
+  .news_item {
+    background: rgb(207, 207, 207);
+    border-radius: 14px;
+    width: 6em;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .arrow {
+    width: 25px;
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+  .arrow::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 1px;
+    background: #707070;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+  }
+  
+  /* レスポンシブデザイン */
+  
+  /* タブレット */
+  @media screen and (max-width: 1024px) {
+    .news_list_item a {
+      display: block;
+    }
+  }
+  
+  /* iPhone */
+  @media screen and (max-width: 480px) {
+    .arrow {
+      display: none;
+    }
+    .news_list_item a {
+      padding-right: 0;
+    }
+    .news_list_item a {
+      font-size: 14px;
+    }
+  }
+  

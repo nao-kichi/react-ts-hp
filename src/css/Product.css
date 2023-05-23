@@ -1,0 +1,62 @@
+/* Product.css */
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  article {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .article-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .article-title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .readmore {
+    margin-top: 10px;
+  }
+  
+  .readmore a {
+    color: rgb(7, 7, 7);
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .readmore a:hover {
+    color: rgb(181, 181, 181);
+    background-color: rgb(87, 87, 87);
+  }
+  
+  /* レスポンシブデザイン */
+  
+  /* タブレット */
+  @media screen and (max-width: 768px) {
+    article {
+      flex-basis: calc(50% - 20px);
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* iPhone */
+  @media screen and (max-width: 480px) {
+    article {
+      flex-basis: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
