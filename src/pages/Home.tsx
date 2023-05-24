@@ -1,8 +1,5 @@
 import '../App.css';
 import '../css/Home.css';
-import homeImage1 from '../images/pc.jpg';
-import homeImage2 from '../images/pc.jpg';
-import programing from '../images/programing.jpeg';
 
 const Home = () => (
   <div>
@@ -11,7 +8,7 @@ const Home = () => (
       <div className="container">
         <div className="content">
           <div className="content-item">
-            <img src={homeImage1} alt="Sample 1" className="image" />
+            <img src='https://github.com/nao-kichi/react-ts-hp/blob/main/src/images/pc.jpg?raw=true' alt="Sample 1" className="image" />
           </div>
           <div className="content-item">
             <div className="text">
@@ -30,7 +27,7 @@ const Home = () => (
       <div className="container">
         <div className="content">
           <div className="content-item">
-            <img src={homeImage2} alt="Sample 2" className="image" />
+            <img src='https://github.com/nao-kichi/react-ts-hp/blob/main/src/images/pc.jpg?raw=true' alt="Sample 2" className="image" />
           </div>
           <div className="content-item">
             <div className="text">
@@ -46,7 +43,7 @@ const Home = () => (
 
     {/* 3 */}
     <section className="full-width-image">
-  <img src={programing} alt="Full Width" />
+  <img src='https://github.com/nao-kichi/react-ts-hp/blob/main/src/images/programing.jpeg?raw=true' alt="Full Width" />
   <div className="overlay">
     <p>Sample Text</p>
   </div>

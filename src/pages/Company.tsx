@@ -1,13 +1,11 @@
-import React from 'react';
 import '../App.css';
 import '../css/Company.css';
-import Profile from '../images/Profile.jpg';
 
 const Company = () => (
   <div>
     <h2>Company</h2>
     <div className="profile">
-      <img src={Profile} alt="Profile" />
+      <img src='https://github.com/nao-kichi/react-ts-hp/blob/main/src/images/Profile.jpg?raw=true' alt="Profile" />
       <div className="profile-info">
         <h3>代表取締役: 松本 尚輝</h3>
         <p>
