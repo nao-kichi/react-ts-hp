@@ -96,3 +96,57 @@ header ul li a:hover {
 .footer p {
   margin: 5px 0;
 }
+
+/* タブレット用スタイル */
+@media (max-width: 1024px) {
+  header {
+    padding: 10px;
+  }
+
+  header ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  section {
+    margin: 10px 0;
+    padding: 5px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer .left-content,
+  .footer .right-content {
+    text-align: center;
+  }
+}
+
+/* iPhone用スタイル */
+@media (max-width: 480px) {
+  header {
+    padding: 5px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  section {
+    margin: 5px 0;
+    padding: 5px;
+  }
+
+  .footer {
+    padding: 5px;
+  }
+
+  .footer .left-content,
+  .footer .right-content {
+    text-align: center;
+  }
+}
